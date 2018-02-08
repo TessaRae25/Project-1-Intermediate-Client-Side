@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+ 	<body>
+ 		<div class="main">
+
+ 	<div class="logo">
+ 		<img src="image/logo-2.png" alt="Marnies Cakes and Sweets logo">
+ 	</div><!-- closing div for logo -->
+
+<form id="cakeform" onchange="getTotal()">
+ 
+ 	<div class="serving-size">
+ 	<h2>What size or serving size in Inches?</h2>
+ 		<input id="sizeServing" type="radio" value="6" name="list1" checked="true"> 6" - 12 Servings <br>
+ 		<input id="sizeServing" type="radio" value="8" name="list1"> 8" - 20 Servings <br>
+ 		<input id="sizeServing" type="radio" value="10" name="list1"> 10" - 30 Servings <br>
+ 		<input id="sizeServing" type="radio" value="12" name="list1"> 12" - 45 Servings <br>
+ 		<input id="sizeServing" type="radio" value="14" name="list1"> 14" - 62 Servings <br>
+ 		<input id="sizeServing" type="radio" value="16" name="list1"> 16" - 85 Servings  <br>
+ 		<input id="sizeServing" type="radio" value="18" name="list1"> 18" - 125 Servings <br>
+ 		<input id="sizeServing" type="radio" value="20" name="list1"> 20" - 144 Servings <br>
+ 		<input id="sizeServing" type="radio" value= "22" name="list1"> 22" - 175 Servings <br>
+ 	</div><!-- closing for serving-size -->
+
+ 	<div class="cake-type">
+ 	<h2>What type of cake?</h2>
+ 		<input id="flavorCake" type="radio" value="Vanilla" name="list2" checked="true"> Vanilla <br>
+ 		<input id="flavorCake" type="radio" value="Chocolate" name="list2"> Chocolate <br>
+ 		<input id="flavorCake" type="radio" value="Strawberry" name="list2"> Strawberry <br>
+ 		<input id="flavorCake" type="radio" value="Butterscotch" name="list2"> Butterscotch <br>
+ 		<input id="flavorCake" type="radio" value="Marbled" name="list2"> Marbled <br>
+ 		<input id="flavorCake" type="radio" value="Red Velvet" name="list2"> Red Velvet <br>
+ 		<input id="flavorCake" type="radio" value="Carrot" name="list2"> Carrot <br>
+ 	</div><!-- closing for cake-type -->
+
+ 	<div class="icing-type">
+ 	<h2>What type of icing?</h2>
+ 		<input id="typeIcing" type="radio" value="Buttercream" name="list3" checked="true"> Buttercream <br>
+ 		<input id="typeIcing" type="radio" value="Glossy Glaze" name="list3"> Glossy Glaze <br>
+ 		<input id="typeIcing" type="radio" value="Cream Cheese" name="list3"> Cream Cheese <br>
+ 		<input id="typeIcing" type="radio" value="Fudge" name="list3"> Fudge <br>
+ 		<input id="typeIcing" type="radio" value="Meringue" name="list3"> Meringue <br>
+ 		<input id="typeIcing" type="radio" value="Ganache" name="list3"> Ganache <br>
+ 		<input id="typeIcing" type="radio" value="Rolled Fondant" name="list3"> Rolled Fondant <br>
+ 	</div><!-- closing for icing-type -->
+
+ 	<div class="filling-type">
+	<h2>What type of Filling?</h2>
+ 		<input id="typeFilling" type="radio" value="Vanilla Custard" name="list4" checked="true"> Vanilla Custard <br>
+ 		<input id="typeFilling" type="radio" value="Pastry Cream" name="list4"> Pastry Cream <br>
+ 		<input id="typeFilling" type="radio" value="White Chocolate" name="list4"> White Chocolate <br>
+ 		<input id="typeFilling" type="radio" value="Chocolate Mousse" name="list4"> Chocolate Mousse <br>
+ 		<input  id="typeFilling" type="radio" value="English Lemon Curd" name="list4"> Lemon Curd <br>
+ 		<input id="typeFilling" type="radio" value="Chocolate Ganache" name="list4"> Chocolate Ganache <br>
+ 		<input id="typeFilling" type="radio" value="Fresh Berries" name="list4"> Fresh Berries <br>
+ 		<input id="typeFilling" type="radio" value="Raspberry Mousse" name="list4"> Raspberry Mousse <br>
+ 		<input id="typeFilling" type="radio" value="Belgium Chocolate" name="list4"> Belgium Chocolate <br>
+ 		<input id="typeFilling" type="radio" value="Cannoli" name="list4"> Cannoli <br>
+ 	</div><!-- closing for filling-type -->
+
+ 	<div class="topper">
+ 	<h2>What type of Topper?</h2>
+ 		<input id="topperType" type="radio" value="Bride &amp; Groom" name="list5" checked="true"> Bride &amp; Groom <br>
+ 		<input id="topperType" type="radio" value="Sparklers" name="list5"> Sparklers <br>
+ 		<input id="topperType" type="radio" value="Small Centerpiece" name="list5"> Small Centerpiece <br>
+ 		<input id="topperType" type="radio" value="Large Centerpiece" name="list5"> Large Centerpiece <br>
+ 	</div><!--closing for topper-->
+
+ 	<div class="decor">
+ 	<h2>What type of Decor?</h2>
+ 		<input id="decorType" type="radio" value="Piped Icing" name="list6" checked="true"> Piped Icing <br>
+ 		<input id="decorType" type="radio" value="Caramel Crumble" name="list6"> Caramel Crumble <br>
+ 		<input id="decorType" type="radio" value="Edible Pearls" name="list6"> Edible Pearls <br>
+ 		<input  id="decorType" type="radio" value="Mirror Glaze" name="list6"> Mirror Glaze <br>
+ 		<input id="decorType" type="radio" value="Layered Buttercream" name="list6"> Layered Buttercream <br>
+ 		<input id="decorType" type="radio" value="Buttercream Folding" name="list6"> Buttercream Folding <br>
+ 		<input id="decorType" type="radio" value="Floral Lace" name="list6"> Floral Lace <br>
+ 		<input id="decorType" type="radio" value="Fruit Decor" name="list6"> Fruit Decor <br>
+ 		<input id="decorType" type="radio" value="Piped Florals" name="list6"> Piped Florals <br>
+ 		<input id="decorType" type="radio" value="Gumpaste Florals" name="list6"> Gumpaste Florals <br>
+ 	</div><!-- closing for decor-->
+
+ 	<div class="pre-cut">
+ 	<h2>Would you like your cake Pre-cut?</h2>
+ 		<input id="preCut" type="radio" value="Yes" name="list7" checked="true"> Yes <br>
+ 		<input id="preCut" type="radio" value="No" name="list7"> No <br>
+ 	</div><!-- closing for pre-cut -->
+
+ 	<br>
+
+ 	<div class="button">
+ 		<button type="submit">Submit Your Order</button>
+ 	</div>
+
+
+ 	<div id="totalPrice"> 
+ 	</div> <!-- closing for totalPrice--> 
+ </form>	
+ 		
+
+ 		<script src="js/main.js"></script>
+ 	</body>
+ </html>
